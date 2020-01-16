@@ -14,5 +14,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pantheon-systems/pantheon-auth0-vue-module"
-  }
+  },
+  "files": [
+    "auth/authGuard.js",
+    "auth/index.js",
+    "plugins/auth0.js",
+    "LICENSE"
+  ]
 }
