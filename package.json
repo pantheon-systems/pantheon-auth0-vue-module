@@ -1,5 +1,5 @@
 {
-  "name": "@pantheon-systems/auth0-vue-plugin",
+  "name": "@pantheon-systems/auth0-vue-module",
   "version": "1.0.0",
   "description": "Auth0 plugin for Vue",
   "directories": {
@@ -16,9 +16,9 @@
     "url": "git+https://github.com/pantheon-systems/pantheon-auth0-vue-module"
   },
   "files": [
-    "auth/authGuard.js",
-    "auth/index.js",
-    "plugins/auth0.js",
+    "lib/auth/authGuard.js",
+    "lib/auth/index.js",
+    "lib/plugins/auth0.js",
     "LICENSE"
   ]
 }
