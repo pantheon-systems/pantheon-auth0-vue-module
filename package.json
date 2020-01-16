@@ -16,8 +16,8 @@
     "url": "git+https://github.com/pantheon-systems/pantheon-auth0-vue-module"
   },
   "files": [
-    "lib/*",
     "index.js",
+    "lib/*",
     "LICENSE"
   ],
   "main": "index.js"
