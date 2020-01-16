@@ -1,10 +1,8 @@
-import authGuard from './lib/auth/authGuard'
-import { getInstance, useAuth0 } from './lib/auth/index'
-import Auth0Plugin from './lib/plugins/auth0'
+'use strict';
 
-export default {
-    authGuard,
-    getInstance,
-    useAuth0,
-    Auth0Plugin
+module.exports = {
+    authGuard: require('./lib/auth/authGuard').authGuard,
+    getInstance: require('./lib/auth/index').getInstance,
+    useAuth0: require('./lib/auth/index').useAuth0,
+    Auth0Plugin: require('./lib/plugins/auth0').Auth0Plugin
 };
